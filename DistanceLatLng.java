@@ -3,8 +3,17 @@ public class DistanceLatLngs {
         int x = 10;
         int y = 25;
         int z = x + y;
-
+        // prints the distance in Meters - 33.33650445564029
         System.out.println(distance(11.336777, 75.928332, 11.336866, 75.928040, 'I'));
+        
+        // prints the distance in Kilometers - 0.033336504455640285
+        System.out.println(distance(11.336777, 75.928332, 11.336866, 75.928040, 'K'));
+        
+        // prints the distance in Miles - 0.0207143435186264
+        System.out.println(distance(11.336777, 75.928332, 11.336866, 75.928040, 'M'));
+        
+        // prints the distance in Nautical Miles - 0.017988335911575164
+        System.out.println(distance(11.336777, 75.928332, 11.336866, 75.928040, 'N'));
     }
 
 
