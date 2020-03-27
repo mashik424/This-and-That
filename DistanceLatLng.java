@@ -1,3 +1,5 @@
+//Copied from https://dzone.com/articles/distance-calculation-using-3
+
 public class DistanceLatLngs {
     public static void main(String args[]) {
         int x = 10;
